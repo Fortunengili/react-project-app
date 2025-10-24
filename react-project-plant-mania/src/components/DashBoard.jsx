@@ -14,7 +14,7 @@ function DashBoard() {
 
   useEffect(() => {
     fetch("http://localhost:3001/feedback")
-      .then((res) => res.json())
+      .then((response) => response.json())
       .then((data) => setFeedbacks(data));
   }, []);
 

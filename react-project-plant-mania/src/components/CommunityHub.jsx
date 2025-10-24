@@ -6,7 +6,7 @@ function CommunityHub() {
 
   useEffect(() => {
     fetch("http://localhost:3001/professionals")
-      .then((res) => res.json())
+      .then((response) => response.json())
       .then((data) => setProfessionals(data));
   }, []);
 

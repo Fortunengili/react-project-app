@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import "../css/PlantCard.css";
 
 function PlantCard() {
-  const { addToCart } = useOutletContext(); 
+  const { addToCart } = useOutletContext();
   const [plants, setPlants] = useState([]);
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("all");
@@ -14,7 +14,6 @@ function PlantCard() {
       .then((response) => response.json())
       .then((data) => setPlants(data));
   }, []);
-
 
   const processedPlants = plants
     .filter((p) => {
@@ -31,25 +30,18 @@ function PlantCard() {
     });
 
   return (
-    <div className="container py-4">
+    <div className="container">
       <h2 className="fw-bold text-success mb-4 text-center">Explore Our Plants</h2>
 
-      <div className="d-flex justify-content-center gap-2 mb-4">
+      <div className="plant-search-bar">
         <input
           type="text"
           placeholder="Search plants..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="form-control"
-          style={{ maxWidth: "200px" }}
         />
 
-        <select
-          value={filter}
-          onChange={(e) => setFilter(e.target.value)}
-          className="form-select"
-          style={{ maxWidth: "150px" }}
-        >
+        <select value={filter} onChange={(e) => setFilter(e.target.value)}>
           <option value="all">All</option>
           <option value="Succulent">Succulent</option>
           <option value="Tropical">Tropical</option>
@@ -59,12 +51,7 @@ function PlantCard() {
           <option value="Grass">Grass</option>
         </select>
 
-        <select
-          value={sort}
-          onChange={(e) => setSort(e.target.value)}
-          className="form-select"
-          style={{ maxWidth: "150px" }}
-        >
+        <select value={sort} onChange={(e) => setSort(e.target.value)}>
           <option value="none">Sort By</option>
           <option value="price-asc">Price: Low to High</option>
           <option value="price-desc">Price: High to Low</option>
@@ -77,31 +64,24 @@ function PlantCard() {
         {processedPlants.length > 0 ? (
           processedPlants.map((plant) => (
             <div className="col-md-4 mb-4" key={plant.id}>
-              <div className="card h-100 shadow-sm">
-                <img
-                  src={plant.image}
-                  alt={plant.name}
-                  className="card-img-top"
-                  style={{ height: "200px", objectFit: "cover" }}
-                />
-                <div className="card-body text-center">
+              <div className="card plant-card">
+                <img src={plant.image} alt={plant.name} />
+                <div className="card-body">
                   <h5>{plant.name}</h5>
                   <p className="text-muted">{plant.type}</p>
                   <p className="text-muted">KES {plant.price}</p>
-                  <div className="d-flex justify-content-center gap-2 mt-2">
-                    <button
-                      className="btn btn-outline-primary btn-sm"
-                      onClick={() => addToCart(plant)}
-                    >
-                      Add to Cart
-                    </button>
-                  </div>
+                  <button
+                    className="btn btn-outline-success btn-sm"
+                    onClick={() => addToCart(plant)}
+                  >
+                    Add to Cart
+                  </button>
                 </div>
               </div>
             </div>
           ))
         ) : (
-          <p className="text-center text-muted mt-5">No plants found.</p>
+          <p className="no-results">No plants found.</p>
         )}
       </div>
     </div>

@@ -49,3 +49,64 @@
   background-color: #ffca2c;
   color: #333;
 }
+
+
+.container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.plant-search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.plant-search-bar input,
+.plant-search-bar select {
+  max-width: 200px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease-in;
+}
+
+.plant-search-bar input:focus,
+.plant-search-bar select:focus {
+  border-color: #198754;
+}
+
+.plant-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.plant-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.plant-card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.plant-card .card-body {
+  text-align: center;
+}
+
+.plant-card .btn {
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.no-results {
+  text-align: center;
+  color: #6c757d;
+  margin-top: 3rem;
+}
