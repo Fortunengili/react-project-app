@@ -1,0 +1,472 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Aloe Vera",
+      "type": "Succulent",
+      "care": "Low water, bright light",
+      "image": "https://img.staticmb.com/mbcontent/images/uploads/2023/12/How-to-grow-aloe-vera-plant-at-home.jpg",
+      "price": 850
+    },
+    {
+      "id": 2,
+      "name": "Monstera Deliciosa",
+      "type": "Tropical",
+      "care": "Moderate water, indirect light",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.aoDQcbG5tH-beddN9BXuLAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 1500
+    },
+    {
+      "id": 3,
+      "name": "Cactus (Golden Barrel)",
+      "type": "Succulent",
+      "care": "Very low water, full sun",
+      "image": "https://th.bing.com/th/id/R.547eb6fb669b7340a6b6b008bcc334fe?rik=QW7vQU%2fEcF1uDA&riu=http%3a%2f%2fwww.creamygoodness.co.uk%2fImages%2fPhotos%2fGalapagos%2fGalapagosDay4%2fCactus2.jpg&ehk=rADwT0xqr7oNuPRqBPy7nyn28rOIQhqTTNwg8r%2fU3qE%3d&risl=&pid=ImgRaw&r=0",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Snake Plant",
+      "type": "Succulent",
+      "care": "Low light, low water",
+      "image": "https://gardeningsg.nparks.gov.sg/images/Plants/snake_plant(4)_zara_chin.jpg",
+      "price": 150
+    },
+    {
+      "id": 5,
+      "name": "Fern (Boston)",
+      "type": "Tropical",
+      "care": "High humidity, indirect light",
+      "image": "https://gardenerspath.com/wp-content/uploads/2022/09/Boston-Fern-Foliage.jpg",
+      "price": 500
+    },
+    {
+      "id": 6,
+      "name": "Peace Lily",
+      "type": "Tropical",
+      "care": "Moderate water, low to medium light",
+      "image": "https://www.thepinnaclelist.com/wp-content/uploads/2023/08/Peace-Lily.jpg",
+      "price": 1200
+    },
+    {
+      "id": 7,
+      "name": "Jade Plant",
+      "type": "Succulent",
+      "care": "Low water, bright light",
+      "image": "https://www.gardening4joy.com/wp-content/uploads/2022/08/Jade-Main-2.jpg",
+      "price": 500
+    },
+    {
+      "id": 8,
+      "name": "Orchid (Phalaenopsis)",
+      "type": "Flowering",
+      "care": "Moderate water, bright indirect light",
+      "image": "https://th.bing.com/th/id/R.3c69ae2960eb4c4a4da599892546a110?rik=%2bfOJKinxM5tLvg&riu=http%3a%2f%2fmesosyn.com%2forch-phal-1.jpg&ehk=WWlBcoAWMxj%2bpp%2bSGU%2by7vua06SGrGpgNqLGUzx04h8%3d&risl=&pid=ImgRaw&r=0",
+      "price": 3000
+    },
+    {
+      "id": 9,
+      "name": "Lavender",
+      "type": "Flowering",
+      "care": "Full sun, low to moderate water",
+      "image": "https://cdn.shopify.com/s/files/1/0059/8835/2052/products/Sensational_Lavender_12.jpg",
+      "price": 3000
+    },
+    {
+      "id": 10,
+      "name": "Rose (Red Rose)",
+      "type": "Flowering",
+      "care": "Full sun, well-drained soil",
+      "image": "https://2.bp.blogspot.com/-2pkHaOIPudo/UNm-pDYgHmI/AAAAAAAABQE/jNMTb5VVY-c/s1600/red-roses.jpg",
+      "price": 2000
+    },
+    {
+      "id": 11,
+      "name": "Tulip",
+      "type": "Flowering",
+      "care": "Full sun, moderate water",
+      "image": "https://www.gardeningknowhow.com/wp-content/uploads/2020/11/tulip-flowerbed.jpg",
+      "price": 5000
+    },
+    {
+      "id": 12,
+      "name": "Daffodil",
+      "type": "Flowering",
+      "care": "Full sun to partial sun, moderate water",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.JcAhzirC0nHCqwZbb844AQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 1500
+    },
+    {
+      "id": 13,
+      "name": "Sunflower",
+      "type": "Flowering",
+      "care": "Full sun, regular water",
+      "image": "https://i.etsystatic.com/14848056/r/il/9e94cf/2416679042/il_fullxfull.2416679042_9xbi.jpg",
+      "price": 3000
+    },
+    {
+      "id": 14,
+      "name": "Marigold",
+      "type": "Flowering",
+      "care": "Full sun, moderate water",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.rzdCsU7F4lWVka2F5jGcPwHaE_?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 2000
+    },
+    {
+      "id": 15,
+      "name": "Ornamental Grass",
+      "type": "Grass",
+      "care": "Full sun or partial sun, low to moderate water",
+      "image": "https://www.thespruce.com/thmb/NrHQBI_ZBbcJPQOAgKKUNdtNnyE=/3600x2361/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-135575616-5a1e27409802070036d9f53c.jpg",
+      "price": 300
+    },
+    {
+      "id": 16,
+      "name": "Spider Plant",
+      "type": "Houseplant",
+      "care": "Moderate light, moderate water",
+      "image": "https://www.thetreecenter.com/wp-content/uploads/spider-plant.jpg",
+      "price": 450
+    },
+    {
+      "id": 17,
+      "name": "ZZ Plant",
+      "type": "Houseplant",
+      "care": "Low light, low water",
+      "image": "https://www.trimmedroots.com/wp-content/uploads/2023/05/propagating-zz-plants.jpg",
+      "price": 500
+    },
+    {
+      "id": 18,
+      "name": "Philodendron Heartleaf",
+      "type": "Tropical",
+      "care": "Indirect light, regular water",
+      "image": "https://paisleyplants.com/wp-content/uploads/2021/04/Philodendron-Xanadu.jpg",
+      "price": 600
+    },
+    {
+      "id": 19,
+      "name": "Begonia",
+      "type": "Flowering",
+      "care": "Indirect light, moderate water",
+      "image": "https://th.bing.com/th/id/R.bce877fa7f94330cda49015c7999faca?rik=Ra%2bVUkJ5%2bZyYEw&pid=ImgRaw&r=0",
+      "price": 1000
+    },
+    {
+      "id": 20,
+      "name": "Impatiens",
+      "type": "Flowering",
+      "care": "Partial shade, regular water",
+      "image": "https://th.bing.com/th/id/R.154ecc57e8e79d6c326f80ebc3a4b42a?rik=WrmKzLTv7eByKw&pid=ImgRaw&r=0",
+      "price": 2000
+    },
+    {
+      "id": 21,
+      "name": "Fiddle Leaf Fig",
+      "type": "Tropical",
+      "care": "Bright indirect light, moderate water",
+      "image": "https://th.bing.com/th/id/R.c6fa429a8b9ce15b906189b0df45613e?rik=f2isJWQ%2bJjFscw&pid=ImgRaw&r=0",
+      "price": 700
+    },
+    {
+      "id": 22,
+      "name": "Pothos (Golden)",
+      "type": "Houseplant",
+      "care": "Low to moderate light, occasional water",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.VXM4t1H3YE3pJv0u2GCCeQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 800
+    },
+    {
+      "id": 23,
+      "name": "Hydrangea",
+      "type": "Flowering",
+      "care": "Partial sun, regular water",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.5OLxI7zJlZgGVXK-Bx7BSgHaES?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 4000
+    },
+    {
+      "id": 24,
+      "name": "Gardenia",
+      "type": "Flowering",
+      "care": "Bright light, high humidity",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.RkRmVkLyAkxARce4oHnaIgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 3000
+    },
+    {
+      "id": 25,
+      "name": "Camellia",
+      "type": "Flowering",
+      "care": "Partial shade, regular water",
+      "image": "https://th.bing.com/th/id/R.da9a2fdc90b4461ae6b75b74d8f0fae2?rik=zYwXQhrMBaBaow&riu=http%3a%2f%2f2.bp.blogspot.com%2f-VZ0A73sCzUo%2fUbIDaqpGLqI%2fAAAAAAAAP1o%2fe-N5m9GQFQ8%2fs1600%2fCamellia-Flower-2.jpg&ehk=%2fqEHCwzh4CqoU%2f%2fZjkYRjC82NenKTsJbh2gmLmND0GM%3d&risl=&pid=ImgRaw&r=0",
+      "price": 1500
+    },
+    {
+      "id": 26,
+      "name": "Dahlia",
+      "type": "Flowering",
+      "care": "Full sun, regular water",
+      "image": "https://th.bing.com/th/id/R.512c534984c7515bb2925cb89cb37477?rik=35gVOJO87TjAew&pid=ImgRaw&r=0",
+      "price": 2000
+    },
+    {
+      "id": 27,
+      "name": "Peony",
+      "type": "Flowering",
+      "care": "Full sun, well-drained soil",
+      "image": "https://th.bing.com/th/id/R.01a64cc41734d21e5782d101302d9a15?rik=ZA3oO99xI46ycw&pid=ImgRaw&r=0",
+      "price": 3000
+    },
+    {
+      "id": 28,
+      "name": "Bleeding Heart",
+      "type": "Flowering",
+      "care": "Partial shade, moist soil",
+      "image": "https://www.thespruce.com/thmb/vdNPcW8qSGAB6J_JZbgLbttYFm8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bleeding-hearts-whimsical-dicentra-2132547-01-d35584abc43341cf8246d31fe5ac4352.jpg",
+      "price": 1500
+    },
+    {
+      "id": 29,
+      "name": "Iris",
+      "type": "Flowering",
+      "care": "Full sun, moderate water",
+      "image": "https://th.bing.com/th/id/R.96de8f1d6fb6ac0e7b6827cd1206d41f?rik=tfplRKUHlFxcIg&pid=ImgRaw&r=0",
+      "price": 4000
+    },
+    {
+      "id": 30,
+      "name": "Lilies",
+      "type": "Flowering",
+      "care": "Full sun to partial sun, regular water",
+      "image": "https://www.planetnatural.com/wp-content/uploads/2023/09/Types-of-Lilies.jpg",
+      "price": 5000
+    },
+    {
+      "id": 31,
+      "name": "Jasmine",
+      "type": "Flowering",
+      "care": "Bright light, moderate water",
+      "image": "https://tse3.mm.bing.net/th/id/OIP._wrzhlRJVMjrlLoJQtBbYQHaEo?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 2500
+    },
+    {
+      "id": 32,
+      "name": "Hibiscus",
+      "type": "Tropical",
+      "care": "Full sun, regular water",
+      "image": "https://th.bing.com/th/id/R.d3025270bcdd09b987cc70fbd484af86?rik=mTCChmnSX6GapQ&pid=ImgRaw&r=0",
+      "price": 7000
+    },
+    {
+      "id": 33,
+      "name": "Bougainvillea",
+      "type": "Flowering",
+      "care": "Full sun, drought tolerant once established",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.YEsPGBKsFBcq5Fm8KFZ6qwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 3000
+    },
+    {
+      "id": 34,
+      "name": "Magnolia",
+      "type": "Flowering",
+      "care": "Full sun to partial, moderate water",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.DxP-oL_4vn6b8j9Hf8n1ogHaEv?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 2000
+    },
+    {
+      "id": 35,
+      "name": "Azalea",
+      "type": "Flowering",
+      "care": "Partial shade, moist, acidic soil",
+      "image": "https://www.gardeningknowhow.com/wp-content/uploads/2020/09/azalea.jpg",
+      "price": 1500
+    },
+    {
+      "id": 36,
+      "name": "Orchid Cattleya",
+      "type": "Flowering",
+      "care": "Bright indirect light, humidity",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.MxQIFTwlAtHNkMafRONa-AHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 10000
+    },
+    {
+      "id": 37,
+      "name": "Chrysanthemum",
+      "type": "Flowering",
+      "care": "Full sun, regular water",
+      "image": "https://th.bing.com/th/id/R.d5f97334b7277fba55d8493c96bc187d?rik=79%2fVw5%2fg4M%2f6xA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-jvYkT0GVDzc%2fUkPdoBs77HI%2fAAAAAAAAEBo%2fY1Fyy1JkYro%2fs1600%2fchrysanthemum_flowers.jpg&ehk=cToQVvPKlMl%2bImDcIvW3Nh4%2byd7MGYHSiACN4%2bY0pzo%3d&risl=&pid=ImgRaw&r=0",
+      "price": 2000
+    },
+    {
+      "id": 38,
+      "name": "Geranium",
+      "type": "Flowering",
+      "care": "Full sun, moderate water",
+      "image": "https://tse2.mm.bing.net/th/id/OIP._cJj9zt7rb40kJx8C-SPkQHaE9?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 1500
+    },
+    {
+      "id": 39,
+      "name": "Zinnia",
+      "type": "Flowering",
+      "care": "Full sun, regular water",
+      "image": "https://tse1.explicit.bing.net/th/id/OIP.bzywJBPjvGxQYVKLxi2fXgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 3000
+    },
+    {
+      "id": 40,
+      "name": "Pansy",
+      "type": "Flowering",
+      "care": "Partial shade, moderate water",
+      "image": "https://th.bing.com/th/id/R.c185733993a943c1fe02839aa6520d7b?rik=6WGPQMKSCdGGFg&pid=ImgRaw&r=0",
+      "price": 4000
+    },
+    {
+      "id": 41,
+      "name": "Petunia",
+      "type": "Flowering",
+      "care": "Full sun, regular water",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.MpHtjJORP30gC2mUFglwfgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 3500
+    },
+    {
+      "id": 42,
+      "name": "Snapdragon",
+      "type": "Flowering",
+      "care": "Full sun to partial, regular water",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.ifBIj-vTTb2vR0jzN37JvgHaD4?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 2500
+    },
+    {
+      "id": 43,
+      "name": "Bluebell",
+      "type": "Flowering",
+      "care": "Partial shade, moist soil",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.R5m0sLzvXMsBVNh88XIVawHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 1500
+    },
+    {
+      "id": 44,
+      "name": "Lotus",
+      "type": "Aquatic",
+      "care": "Full sun, water depth 5–10 cm",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.lxt54IaUvOtGM97XFgCcEAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 1500
+    },
+    {
+      "id": 45,
+      "name": "Water Lily",
+      "type": "Aquatic",
+      "care": "Full sun, still water",
+      "image": "https://th.bing.com/th/id/R.1a6cd74d27960fec85008cbfd107d9e1?rik=VqPYnLVa854ANw&pid=ImgRaw&r=0",
+      "price": 6000
+    },
+    {
+      "id": 46,
+      "name": "Carnation",
+      "type": "Flowering",
+      "care": "Full sun, well-drained",
+      "image": "https://th.bing.com/th/id/R.ad0bd8fd55a3963eba2e4456fedac7ac?rik=0tztDTveAx0Tyw&pid=ImgRaw&r=0",
+      "price": 5000
+    },
+    {
+      "id": 47,
+      "name": "Orchid Vanda",
+      "type": "Flowering",
+      "care": "Bright light, humidity, moderate water",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.dKK2uXCpOkF89a5bBeK-VQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 15000
+    },
+    {
+      "id": 48,
+      "name": "Begonia Rex",
+      "type": "Flowering",
+      "care": "Indirect light, moist soil",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.m5rKe_C_K-u3qb7uV4EhogHaE1?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 1500
+    },
+    {
+      "id": 49,
+      "name": "Swiss Cheese Plant",
+      "type": "Tropical",
+      "care": "Bright indirect light, moderate water",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.WS7F-ptW1wKW6TZumxe17AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 1500
+    },
+    {
+      "id": 50,
+      "name": "String of Pearls",
+      "type": "Succulent",
+      "care": "Very low water, bright light",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.AwNwFX1zWQFbTRfDTdLUnQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "price": 2000
+    }
+  ],
+  "cart": [
+    {
+      "id": 3,
+      "name": "Cactus (Golden Barrel)",
+      "type": "Succulent",
+      "care": "Very low water, full sun",
+      "image": "https://th.bing.com/th/id/R.547eb6fb669b7340a6b6b008bcc334fe?rik=QW7vQU%2fEcF1uDA&riu=http%3a%2f%2fwww.creamygoodness.co.uk%2fImages%2fPhotos%2fGalapagos%2fGalapagosDay4%2fCactus2.jpg&ehk=rADwT0xqr7oNuPRqBPy7nyn28rOIQhqTTNwg8r%2fU3qE%3d&risl=&pid=ImgRaw&r=0",
+      "price": 300,
+      "quantity": 1
+    },
+    {
+      "id": 1,
+      "name": "Aloe Vera",
+      "type": "Succulent",
+      "care": "Low water, bright light",
+      "image": "https://img.staticmb.com/mbcontent/images/uploads/2023/12/How-to-grow-aloe-vera-plant-at-home.jpg",
+      "price": 850,
+      "quantity": 1
+    }
+  ],
+  "professionals": [
+    {
+      "id": 1,
+      "name": "Jon Green",
+      "specialty": "Horticulturist",
+      "experience": "5 years",
+      "email": "jongreen@gmail.com",
+      "image": "https://images.pexels.com/photos/3765112/pexels-photo-3765112.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Madre Linda",
+      "specialty": "Landscape Architect",
+      "experience": "10 years",
+      "email": "madrelinda@gmail.com",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.fOG3KaoirLzQNFALuHKbXAHaEJ?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": 3,
+      "name": "Barry Allen",
+      "specialty": "Seedling Expert",
+      "experience": "7 years",
+      "email": "barryallen@gmail.com",
+      "image": "https://img.freepik.com/premium-photo/environmental-scientists-conducting-field-research-testing-lab_1004054-18336.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "3d38",
+      "username": "ngilifofs@gmail.com",
+      "email": "ngilifofs@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2ee3",
+      "username": "ngilifofs@gmail.com",
+      "email": "ngilifofs@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "1c91",
+      "name": "fortune ngili",
+      "message": "i love it"
+    }
+
+  ]
+}
