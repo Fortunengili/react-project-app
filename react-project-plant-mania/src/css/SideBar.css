@@ -1,0 +1,35 @@
+.sidebar {
+  width: 250px;
+  background-color: #fff3cd;
+  border-right: 1px solid #28a745;
+  min-height: 100%;
+  padding: 20px;
+}
+
+.sidebar h5 {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+  border-radius: 8px;
+}
+
+.btn-outline-success:hover {
+  background-color: #d4edda; 
+  color: #218838;
+}

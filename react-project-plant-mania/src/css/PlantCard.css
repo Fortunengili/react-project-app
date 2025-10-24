@@ -1,0 +1,51 @@
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.card h5 {
+  color: #28a745; 
+  font-weight: 600;
+}
+
+.card .text-muted {
+  color: #6c757d;
+}
+
+.form-control {
+  border-color: #d4edda; 
+  background-color: #fff3cd; 
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+}
+
+.form-select {
+  border-color: #d4edda;
+  background-color: #fff3cd;
+  border-radius: 8px;
+  color: #333;
+}
+
+.form-select:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+}
+
+.btn-outline-primary {
+  border-color: #ffc107; 
+  color: #ffc107;
+  border-radius: 8px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ffca2c;
+  color: #333;
+}

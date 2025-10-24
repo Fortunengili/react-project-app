@@ -1,0 +1,55 @@
+.plant-navbar {
+  background-color: #d4edda; 
+  border-bottom: 1px solid #28a745;
+  padding: 8px 20px;
+  margin-bottom: 0; 
+}
+
+.navbar-brand {
+  font-family: 'Arial', sans-serif;
+  color: #28a745 ;
+  font-weight: bold;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #218838 ;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 500;
+  padding: 8px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #28a745;
+  background-color: #fff3cd; 
+  border-radius: 8px;
+}
+
+.active-link {
+  color: #28a745 ;
+  border-bottom: 2px solid #ffc107;
+}
+
+.cart-btn {
+  background-color: #ffc107; 
+  color: #333;
+  padding: 8px 15px;
+  border: 1px solid #ffca2c;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cart-btn:hover {
+  background-color: #ffca2c;
+  transform: scale(1.05);
+}
+
+.badge {
+  background-color: #dc3545; 
+  font-size: 0.7rem;
+}

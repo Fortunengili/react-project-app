@@ -1,0 +1,25 @@
+.feedback-form-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  width: 300px;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+.feedback-form-container:hover {
+  transform: translateY(-4px);
+}
+
+.feedback-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}

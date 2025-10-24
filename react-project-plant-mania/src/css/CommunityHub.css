@@ -1,0 +1,47 @@
+.community-hub {
+  background-color: #f4f9f4; 
+  padding: 20px;
+}
+
+.professional-card {
+  background-color: #fff;
+  border: 1px solid #d4edda; 
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.professional-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.professional-card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-title {
+  color: #28a745; 
+  font-weight: 600;
+}
+
+.card-text {
+  color: #333;
+}
+
+.text-muted {
+  color: #6c757d ;
+}
+
+.btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+  border-radius: 8px;
+}
+
+.btn-outline-success:hover {
+  background-color: #d4edda; 
+  color: #218838;
+}

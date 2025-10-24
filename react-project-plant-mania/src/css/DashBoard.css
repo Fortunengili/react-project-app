@@ -1,0 +1,61 @@
+.dashboard-container {
+  background-color: #f4f9f4;
+  padding: 10px; 
+  margin: 0; 
+  min-height: calc(100vh - 60px); 
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 15px; 
+}
+
+.content {
+  flex-grow: 1;
+  padding: 10px; 
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffc107; 
+  color: #333;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.floating-btn:hover {
+  background-color: #ffca2c;
+  transform: scale(1.1);
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid #d4edda; 
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card p {
+  color: #333;
+}
+
+.feedback-section {
+  margin-top: 15px; 
+}
